@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.hero h1, footer, h1, .logo, .sign_up_section {
+    color: #f9faf8;
+}
+
+.hero p, li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+    gap: 1rem;
+    width: 1100px;
+}
+
+.hero_left {
+    width: 500px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 7px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section button {
+    border: white 1px solid;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    max-width: 200px;
+    margin: 25px;
+}
+
+figure {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_div {
+    width: 1050px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.sign_up_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 500px;
+    margin: 3rem auto;
+    padding: 1rem 6rem;
+}
+
+.signupleft {
+    flex: 1;
+    line-height: 1;
+}
+
+
+.button_bottom {
+    align-self: flex-start;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.signupleft p {
+    margin-top: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 1rem;
+}
